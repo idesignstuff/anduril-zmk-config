@@ -1,3 +1,9 @@
+config SHIELD_ANDURIL_LEFT
+    def_bool $(shields_list_contains,anduril_left)
+
+config SHIELD_ANDURIL_RIGHT
+    def_bool $(shields_list_contains,anduril_right)
+
 config SHIELD_ANDURIL
     def_bool $(shields_list_contains,anduril)
 

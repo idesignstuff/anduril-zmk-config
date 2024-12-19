@@ -23,4 +23,14 @@
     RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6) RC(4,7) RC(4,8) RC(4,9)
         >;
     };
+
+    // Define Studio-specific behaviors
+    behaviors {
+        studio_unlock: studio_unlock {
+            compatible = "zmk,behavior-key-press";
+            label = "STUDIO_UNLOCK";
+            #binding-cells = <0>;
+            bindings = <&kp LS(F6)>;
+        };
+    };
 };
