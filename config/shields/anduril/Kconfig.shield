@@ -1,0 +1,5 @@
+config SHIELD_ANDURIL
+    def_bool $(shields_list_contains,anduril)
+
+    select NICE_NRF_I2C_0
+    select NICE_NRF_SPI_0

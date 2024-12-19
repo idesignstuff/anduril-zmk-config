@@ -1,0 +1,11 @@
+file_format: "1"
+id: anduril
+name: Anduril
+type: shield
+url: https://github.com/yourusername/anduril-keyboard
+requires:
+  - nice_nano_v2
+features:
+  - keys
+  - display
+  - underglow
