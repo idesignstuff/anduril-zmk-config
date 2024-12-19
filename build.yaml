@@ -1,3 +1,5 @@
 include:
   - board: nice_nano_v2
-    shield: anduril
+    shield: 
+      - anduril_left
+      - anduril_right
